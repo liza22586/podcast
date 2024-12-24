@@ -1,0 +1,53 @@
+h2 {
+    text-align: center;
+    margin-bottom: 21px;
+    font-size: 9rem;
+    font-weight: 600;
+    color: #222222;
+}
+
+.page404 p{
+    color: #222222;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 19px;
+
+}
+
+.page404 span p{
+    font-size: 1rem;
+    color: #555555;
+    margin-bottom: 22px;
+}
+
+.button-page404 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.button-page404 a {
+    padding-top: 7px;
+    text-align: center;
+    width: 133px;
+    height: 30px;
+    text-decoration: none;
+    background-color: #7247CA;
+    border: none;
+    border-radius: 5px;
+
+    color: #FFFFFF;
+    font-size: 0.875rem;
+}
+
+.button-page404 i {
+    border: solid #FFFFFF;
+    border-width: 0 2px 2px 0; /* Adjust border width for desired height */
+    display: inline-block;
+    margin: 1px 2px;
+    width: 1px; /* Set the desired width */
+    height: 1px; /* Set the desired height */
+    -webkit-transform: rotate(-45deg);
+
+}

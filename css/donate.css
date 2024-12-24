@@ -1,0 +1,42 @@
+h2 {
+    font-size: 1.625rem;
+    font-weight: 600;
+    color: #222222;
+    margin-bottom: 40px;
+}
+
+.support p {
+    color: #555555;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+.button-support {
+    display: flex;
+}
+
+.button-support a {
+    padding-top: 7px;
+    text-align: center;
+    width: 133px;
+    height: 30px;
+    text-decoration: none;
+    background-color: #7247CA;
+    border: none;
+    border-radius: 5px;
+
+    color: #FFFFFF;
+    font-size: 0.875rem;
+}
+
+.button-support i {
+    border: solid #FFFFFF;
+    border-width: 0 2px 2px 0; /* Adjust border width for desired height */
+    display: inline-block;
+    margin: 1px 2px;
+    width: 1px; /* Set the desired width */
+    height: 1px; /* Set the desired height */
+    -webkit-transform: rotate(-45deg);
+
+}
+

@@ -1,0 +1,31 @@
+h2 {
+    font-size: 1.625rem;
+    font-weight: 600;
+    color: #323232;
+    margin-bottom: 42px;
+}
+
+.privacy-details, .privacy-security, .privacy-cookies {
+    margin-bottom: 39px;
+}
+
+
+.privacy-details p, .privacy-security p, .privacy-cookies p{
+    color: #222222;
+    font-size: 1.313rem;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.privacy-details span p, .privacy-security span p, .privacy-cookies ol {
+    color: #555555;
+    font-size: 1rem;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 25px;
+
+}
+
+.privacy-cookies ol li {
+    margin-bottom: 12px;
+}

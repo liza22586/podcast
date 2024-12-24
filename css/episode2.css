@@ -1,0 +1,83 @@
+.listen-to-episode2 {
+    height: 90px; 
+    width: 100%;
+    border: 1px solid #EAEAEE;
+}
+
+.listen-to-episode2 a {
+    height: 90px;
+    display: flex;
+    text-decoration: none;
+    margin: auto 0 auto 24px;
+}
+
+.listen-to-episode2 p {
+    color: #222222;
+    font-size: 1.313rem;
+    margin-left: 10px;
+    margin: auto 0;
+}
+
+.about-author {
+    border: 1px solid #EAEAEE;
+    padding: 24px;
+    margin-bottom: 48px;
+}
+
+.about-author {
+    height: 430px;
+    overflow: scroll;
+}
+
+.about-author p {
+    color: #555555;
+    line-height: 34px;
+}
+
+
+.name-author {
+margin-bottom:  18px;
+}
+
+.name-author p {
+    margin-bottom: 25px;
+}
+
+
+/* адаптив */
+
+@media screen and (max-width: 675px) {
+    .article-post1 img, .article-post2 img, .article-button, .article-title  {
+        margin: 0 auto;
+    }
+
+    .article-title a, article h3, h2 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .article-name, .article-date {
+        text-align: center;
+    }
+
+    .article-date {
+        margin-bottom: 20px;
+    }
+
+    .name-date {
+        display: inline;
+    }
+
+    #data, .name-date p {
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .hashtag, .share {
+        display: flex;
+        justify-content: center;
+    }
+}

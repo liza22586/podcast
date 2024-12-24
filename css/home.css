@@ -1,0 +1,403 @@
+body {
+    font-family: "Source Serif 4", serif;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+.startImg {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 39px;
+}
+
+.text-episode {
+    text-align: center;
+    font-size: 1.625rem;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+/* начало проигрывателя*/
+
+.record {
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+#toggle  {
+    opacity: 0;
+}
+
+.record-button {
+    position: relative;
+}
+
+.record-button img {
+    position: absolute;
+    width: 11px;
+    top: 7px;
+    left: 8px;
+}
+
+.record-button i {
+    background-color: #F5F5F7;
+    width: 121px;
+    height: 22px;
+    font-size: 0.75rem;
+    font-style: normal;
+    color: #7247CA;
+    border: none;
+    border-radius: 5px;
+    padding-top: 6px;
+    margin: 0 auto;
+}
+
+.after {
+    display: none;
+    height: 16px;
+}
+
+#toggle:checked + label.button {
+    display: none;
+}
+
+#toggle:checked ~ .after {
+    display: block;
+}
+
+#toggle:checked + .record-button {
+    display: none;
+    transition: opacity 0.5s;
+    opacity: 0;
+}
+
+
+.after-player {
+    display: flex;
+}
+
+.play2, .volume, .download {
+    width: 13px;
+    height: 16px;
+}
+
+.controls-volume {
+    background-image: url(..//images/volume.png);
+}
+
+.line-play {
+    width: 74vw;
+    height: 7px;
+    background-color: #F5F5F7;
+    box-shadow: inset 0 0 4px #F5F5F7;
+    border: none;
+    border-radius: 6px;
+    margin: auto 0;
+}
+
+.item-duration {
+    margin: 0 8px 0 11px;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    color: #555555; 
+}
+
+.volume {
+    margin-right: 16px;
+}
+
+/* конец проигрывателя */
+
+.main-record-title {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.links-platforms {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 96px;
+}
+
+.links-platforms img {
+    width: 21px;
+    height: 24px;
+}
+
+
+.post-header {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.new {
+    width: 36px;
+    height: 17px;
+    background-color: #F5F5F7;
+    border: none;
+    border-radius: 10%;
+
+    font-size: 0.625rem;
+    font-weight: 600;
+    color: #7247CA;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.post-header p{
+    color: #979797;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 0 0 0 8px;
+    padding-top: 3px
+}
+
+.post-name {
+    font-size: 1.313rem;
+    font-weight: 600;
+    color: #222222;
+    margin-bottom: 12px;
+}
+
+.post-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #555555;
+    margin-bottom: 16px;
+}
+.post-button {
+    display: flex;
+    justify-content: flex-start;
+}
+.post-button-text {
+    text-decoration: none;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.post1,.post2 {
+    margin-bottom: 50px;
+}
+
+.post3 {
+    margin-bottom: 64px;
+}
+
+.post-header span {
+    margin-left: -7px;
+}
+
+.page-numbering {
+    display: flex;
+    margin-bottom: 64px; 
+}
+
+.page {
+    width: 30px;
+    height: 22px;
+    background-color: #F5F5F7;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding-top: 5px;
+    text-align: center;
+
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #555555;
+}
+
+.page-numbering i {
+    border: solid #555555;
+    border-width: 0 2px 2px 0; /* Adjust border width for desired height */
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    -webkit-transform: rotate(-45deg);
+    margin: auto 0;
+}
+
+/* начало section */
+
+h2 {
+    font-size: 1.625rem;
+    font-weight: 600;
+    color: #222222;
+}
+
+.section {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 64px;
+}
+
+.section-imgs1 span img, .section-imgs2 span img{
+    width: 19vw;
+    height: auto;
+}
+
+.section-imgs {
+    background-color: #F5F5F7;
+    padding-bottom: 15px;
+}
+
+.section-title {
+    font-size: 0.75rem;
+    color: #7247CA;
+    letter-spacing: 2px;
+}
+
+.wrapper-section {
+    margin-left: 16px;  
+}
+
+.section-name {
+    margin-bottom: 39px;
+    font-size: 1.125rem;
+    color: #222222;
+}
+
+/* конец section */
+
+/* начало article */
+article h3 {
+    font-size: 1.625rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #222222;
+}
+
+.article-post1, .article-post2 {
+    display: flex;    
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* .article-title {
+    max-width: 41vw;
+    word-wrap: break-word;
+} */
+
+.article-post1 {
+    margin-bottom: 24px;
+}
+
+.article-post2 {
+    margin-bottom: 48px;
+}
+
+.article-post1 img, .article-post2 img {
+    max-width: 41vw;
+    height: auto;
+}
+
+.article-name {
+    font-size: 1.313rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #222222;
+}
+
+.article-date {
+    font-size: 0.875rem;
+    color: #979797;
+    margin-bottom: 39px;
+}
+
+.article-title a {
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #7247CA;
+}
+
+.article-button {
+    display: flex;
+    justify-content: center;
+    width: 106px;
+    height: 34px;
+    background-color: #F5F5F7;
+    border: none;
+    border-radius: 5px;
+}
+
+.article-button a {
+    text-decoration: none;
+    font-size: 0.875rem;
+    color: #7247CA;
+    margin: auto 0;
+}
+
+
+.article-button i {
+    border: solid #7247CA;
+    border-width: 0 2px 2px 0; /* Adjust border width for desired height */
+    display: inline-block;
+    margin: auto 5px;
+    width: 1px; /* Set the desired width */
+    height: 1px; /* Set the desired height */
+    -webkit-transform: rotate(-45deg);
+}
+
+/* конец article */
+
+
+
+@media screen and (max-width: 675px) {
+    .section {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .section-imgs {
+        width: 60%;
+    }
+
+    .section-imgs1 span img, .section-imgs2 span img {
+        width: 100%;
+    }
+
+    .article-post1 img, .article-post2 img, .article-button, .article-title  {
+        margin: 0 auto;
+    } 
+
+    .article-title a, article h3, h2 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .article-name, .article-date {
+        text-align: center;
+    }
+
+    .article-date {
+        margin-bottom: 20px;
+    }
+
+    
+}
+
+@media screen and (max-width: 450px) {
+    .section {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .section-imgs {
+        width: 90%;
+    }
+
+}

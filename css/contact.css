@@ -1,0 +1,92 @@
+.contact-form {
+    margin-top: 96px;
+}
+
+.contact-title {
+    margin-bottom: 45px;
+}
+
+.contact-title p {
+    color: #222222;
+    font-size: 1.625rem;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+
+.contact-title span p {
+    font-size: 0.875rem;
+    color: #222222;
+    font-weight: 400;
+}
+
+.contact-comment p, .contact-data p {
+    color: #555555;
+    margin-bottom: 10px;
+}
+
+.contact-data {
+    margin-bottom: 28px;
+
+}
+#contact-textarea {
+    width: 91%;
+    height: 150px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #F5F5F7;
+    padding: 15px 13px;
+    resize: none; 
+
+}
+
+#contact-data-textarea {
+    resize: none; 
+    overflow: hidden;
+    width: 91%;
+    height: 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #F5F5F7;
+    padding: 15px 13px;
+    color: #979797;
+}
+
+#contact-data-textarea::placeholder, #contact-textarea::placeholder {
+    color: #979797;
+
+}
+
+.contact-button {
+    margin-top: 39px;
+    width: 90px;
+    height: 34px;
+    background-color: #7247CA;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-button:before  {
+    background-color: #5a1fcf;
+}
+
+.contact-button-internal {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-button-internal p {
+    color: #FFFFFF;
+    font-size: 0.875rem;
+}
+
+.contact-button-internal i {
+    border: solid #FFFFFF;
+    border-width: 0 2px 2px 0; /* Adjust border width for desired height */
+    display: inline-block;
+    margin: auto 5px;
+    width: 1px; /* Set the desired width */
+    height: 1px; /* Set the desired height */
+    -webkit-transform: rotate(-45deg);
+}
