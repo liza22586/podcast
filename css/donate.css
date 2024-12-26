@@ -33,10 +33,11 @@ h2 {
     border: solid #FFFFFF;
     border-width: 0 2px 2px 0; /* Adjust border width for desired height */
     display: inline-block;
-    margin: 1px 2px;
-    width: 1px; /* Set the desired width */
-    height: 1px; /* Set the desired height */
+    margin: auto 3px;
+    width: 6px; /* Set the desired width */
+    height: 6px; /* Set the desired height */
     -webkit-transform: rotate(-45deg);
 
 }
+
 

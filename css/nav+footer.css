@@ -1,6 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+a:hover {
+    color: #1a0a3a;
 }
   
 body {
@@ -66,6 +71,11 @@ li a{
     font-size: 0.75rem;
     font-weight: 600;
     letter-spacing: 2px;
+}
+
+li a:hover {
+    color: #555555;
+
 }
 
 li {
@@ -203,6 +213,12 @@ li img[alt="heart"] {
     font-weight: 600;
 }
 
+
+.footer-left a:hover {
+    color: #222222;
+}
+
+
 .footer-right h5{
     font-weight: 600;
     letter-spacing: 3px;
@@ -255,5 +271,31 @@ li img[alt="heart"] {
     .container {
         width: 90%;
         margin: 0 auto;
+    }
+}
+
+@media (hover:hover) {
+    li a:hover {
+        color: #555555;
+    }
+
+    .footer-left a:hover {
+        color: #222222;
+    }
+
+    a:hover {
+        color: #1a0a3a;
+    }
+}
+
+@media (hover: none) {
+    li a:active {
+        color: #555555;
+    }
+    .footer-left a:active {
+        color: #222222;
+    }
+    a:active {
+        color: #1a0a3a;
     }
 }

@@ -284,11 +284,6 @@ article h3 {
     gap: 20px;
 }
 
-/* .article-title {
-    max-width: 41vw;
-    word-wrap: break-word;
-} */
-
 .article-post1 {
     margin-bottom: 24px;
 }
@@ -338,7 +333,6 @@ article h3 {
     color: #7247CA;
     margin: auto 0;
 }
-
 
 .article-button i {
     border: solid #7247CA;
