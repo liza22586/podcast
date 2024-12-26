@@ -22,10 +22,13 @@ body {
 .record {
     text-align: center;
     margin-bottom: 36px;
+
 }
 
 #toggle  {
     opacity: 0;
+    display: none;
+
 }
 
 .record-button {
@@ -39,16 +42,14 @@ body {
     left: 8px;
 }
 
-.record-button i {
+ i {
     background-color: #F5F5F7;
-    width: 121px;
-    height: 22px;
+    padding: 6px 5px 5px 23px;
     font-size: 0.75rem;
     font-style: normal;
     color: #7247CA;
     border: none;
     border-radius: 5px;
-    padding-top: 6px;
     margin: 0 auto;
 }
 
